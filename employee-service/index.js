@@ -1,7 +1,7 @@
-import express from 'express';
-import mongoose from 'mongoose';
-import cors from 'cors';
-import employeeRoutes from './routes/employeeRoutes.js';
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const employeeRoutes = require('./routes/employeeRoutes');
 
 const app = express();
 const PORT = 3001;
