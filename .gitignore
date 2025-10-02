@@ -1,5 +1,5 @@
 # Node.js dependencies
-/node_modules
+node_modules/
 
 # Logs
 npm-debug.log*
@@ -12,6 +12,10 @@ pnpm-debug.log*
 .env.local
 .env.*.local
 
+# Logs
+logs
+*.log
+
 # OS-generated files
 .DS_Store
 Thumbs.db
@@ -19,10 +23,20 @@ Thumbs.db
 # IDE/editor specific
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Optional: coverage/testing
 coverage/
 *.lcov
+
+# Local development
+.cache/
+.vite/
+
+# Testing
+coverage/
+*.tsbuildinfo
 
 # Build output
 dist/
