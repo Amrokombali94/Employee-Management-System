@@ -1,3 +1,44 @@
+# To run this project make sure you have these installed:
+
+Node.js (v18+)
+
+npm (comes with Node)
+
+MongoDB (running locally or on Atlas)
+
+# Run the Backend Services
+Each backend service runs separately.
+
+To Run Employee Service use these command.
+ 
+ cd employee-service
+ npm install
+ node index.js
+
+To Run Attendance Service use these command.
+ 
+ cd attendance-service
+ npm install
+ node index.js
+
+To Run Department Service use these command.
+ 
+ cd department-service
+ npm install
+ node index.js
+
+To Run Payroll Service use these command.
+ 
+ cd payroll-service
+ npm install
+ node index.js
+
+To Run notification Service use these command.
+ 
+ cd notification-service
+ npm install
+ node index.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
